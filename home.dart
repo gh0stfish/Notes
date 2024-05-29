@@ -119,7 +119,7 @@ class _AddState extends State<Add> {
         ));
   }
 
-  /*@override
+  @override
   void didUpdateWidget(covariant Add oldWidget) {
     super.didUpdateWidget(oldWidget);
 
@@ -129,5 +129,5 @@ class _AddState extends State<Add> {
             widget.notes.where((note) => !oldWidget.notes.contains(note)));
       });
     }
-  }*/
+  }
 }
